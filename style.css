@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+/*!---------------------------*/
+label {
+    display: none;
+}
+.title {
+    font-size: 1.59rem;
+    color: #fff;
+    margin: 0 auto 1em;
+    width: 100%;
+    position: relative;
+}
+
+.sal {
+    margin: 2rem 0 1rem;
+}
+.sal,
+.btn {
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 500px;
+    text-decoration: none;
+    border-radius: 100px;
+
+    padding: .8em;
+    text-align: center;
+    border: 0;
+    outline: none;
+}
+
+::placeholder {
+    color: #000;
+    opacity: 0.3;
+}
+
+.btn {
+    margin-top: 1rem;
+    background-color: #9AD697;
+    box-shadow: 1px 1px 20px -10px rgba(0, 0, 0, 0.63);
+    color: #085204;
+    cursor: pointer;
+}
+.btn:hover {
+    transition: ease-in-out 0.2s;
+    opacity: 0.7;
+}
+
+
+td,
+th {
+    padding: 15px 21px;
+    text-align: center;
+}
+
+th {
+    background-color: #3E9639;
+    color: #fafafa;
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+tr {
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+/*!---------------------------*/
+.contaier {
+    background-color: #3E9639;
+    width: 100%;
+    padding: 3rem;
+    margin: 0 auto;
+    box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+    /* border-radius: 0 0 50% 50%; */
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.wrapper{
+    /* border: 2px solid red; */
+    margin: 7rem 0;
+}
+
+
+
+
+
+
+
+
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 8rem;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!------------------ */
+/* 
+.eyes {
+    width: 100%;
+    pa
+    background-color: red;
+    display: flex;
+    margin: 0 auto;
+}
+
+.eye {
+    width: 95px;
+    position: relative;
+    height: 93px;
+    background-color: #ffe13b;
+    border: 10px solid #92ae57;
+    display: inline-block;
+    z-index: 2;
+    margin: 0 2rem;
+    animation: eyes 5s infinite step-start 0s;
+}
+.pupil {
+    width: 1px;
+    height: 1px;
+    border: 10px solid #353535;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    animation: pupil 5s infinite step-start 0s;
+}
+
+.pupil:last-child {
+    float: right;
+}
+
+/* Animations */
+/* 
+@keyframes eyes {
+
+    0%,
+    100% {
+        background: #92ae57;
+        border-radius: 50%;
+        border: 10px solid #92ae57;
+    }
+
+    5%,
+    95% {
+        background: #ffe13b;
+        border-radius: 50%;
+        border: 10px solid #92ae57;
+    }
+}
+
+@keyframes pupil {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    5%,
+    95% {
+
+        opacity: 1;
+    } 
+} */
+
+/*!------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card {
+    background: linear-gradient( to left, #00296b 99%,#ffd500 1% );
+    background-color: #00296b;
+    padding: 5rem;
+    color: #fff;
+    border-right: 5px solid #ffd500;
+    border-left: 5px solid #ffd500;
+    width: 80%;
+    max-width: 500px;
+    
+}
+
+.card+.card {
+    margin-top: 2em;
+} */
+/* .name::before {
+    content: "";
+    background-color: #00296b;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    animation: type 3s steps(10) 1s forwards;
+}
+
+.name::after {
+    content: "";
+    top: 0;
+    animation: type 3s steps(10) 1s forwards,
+    stick 600ms steps(10) infinite;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    width: 0.125em;
+    background-color: #fff;
+} */
+
+/* @keyframes type {
+    from {
+        left: 0;
+    }
+    
+    to {
+        left: 100%;
+        background-color: #00296b;
+    }
+}
+
+
+
+
+@keyframes stick {
+    to {
+        background: transparent;
+    }
+} */
